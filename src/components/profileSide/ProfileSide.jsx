@@ -7,3 +7,4 @@ const ProfileSide = () => {
         </div>
     );
 };
+export default ProfileSide;
