@@ -16,7 +16,7 @@ function FollowersCard() {
                             />
                             <div className="name">
                                 <span>{follower.name}</span>
-                                <span>{follower.usernamer}</span>
+                                <span>@{follower.usernamer}</span>
                             </div>
                         </div>
                         <button className="button fc-button">Follow</button>
