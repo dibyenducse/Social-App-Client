@@ -61,9 +61,12 @@ function PostShare() {
                         />
                     </div>
                 </div>
+                {/*Preview the the images */}
                 {image && (
                     <div className="previewImage">
+                        {/*remove selected image */}
                         <UilTimes onClick={() => setImage(null)} />
+                        {/*show selected image */}
                         <img src={image.image} alt="" />
                     </div>
                 )}
