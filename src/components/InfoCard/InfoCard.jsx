@@ -5,7 +5,7 @@ import { UilPen } from '@iconscout/react-unicons';
 const InfoCard = () => {
     return (
         <div className="InfoCard">
-            <div className="InfoHead">
+            <div className="infoHead">
                 <h4>Your Info</h4>
                 <div>
                     <UilPen width="2rem" height="1.2rem" />
@@ -13,23 +13,23 @@ const InfoCard = () => {
             </div>
             <div className="info">
                 <span>
-                    <b>Status</b>
+                    <b>Status </b>
                     <span>In Relationship</span>
                 </span>
             </div>
             <div className="info">
                 <span>
-                    <b>Lives In</b>
+                    <b>Lives In </b>
                 </span>
                 <span>Dhaka</span>
             </div>
             <div className="info">
                 <span>
-                    <b>Works at</b>
+                    <b>Works at </b>
                 </span>
                 <span>Bloombrain</span>
             </div>
-            <button className="button">Logout</button>
+            <button className="button logout-button">Logout</button>
         </div>
     );
 };
